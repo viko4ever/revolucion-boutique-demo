@@ -677,7 +677,7 @@ textarea.input-lux {
 .gallery-grid {
   display: grid;
   grid-template-columns: 1.2fr 0.8fr 0.8fr;
-  grid-auto-rows: 220px;
+  grid-auto-rows: 280px;
   gap: 18px;
 }
 
@@ -736,39 +736,47 @@ textarea.input-lux {
   background:
     linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.82)),
     url('./assets/Talavera.jpg');
-  background-size: cover;
-  background-position: center;
+ background-size: cover;
+background-position: center;
 }
 
 .gallery-brick::before {
   background:
     linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.82)),
     url('./assets/ladrillo.jpg');
-  background-size: cover;
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
+  background-color: #070706;
 }
 
 .gallery-coffee::before {
   background:
     linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.86)),
     url('./assets/cafe.jpg');
-  background-size: cover;
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
+  background-color: #070706;
 }
 .gallery-food::before {
   background:
     linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.86)),
     url('./assets/comida.jpg');
-  background-size: cover;
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
+  background-color: #070706;
 }
 
 .gallery-gold::before {
   background:
     linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.84)),
     url('./assets/dorado.jpg');
-  background-size: cover;
+     background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
+  background-color: #070706;
 }
 
 @media (max-width: 900px) {
