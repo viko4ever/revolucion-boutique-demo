@@ -815,3 +815,61 @@ background-position: center;
   line-height: 1.6;
   text-align: center;
 }
+@media (max-width: 600px) {
+  .navbar-inner {
+    padding: 14px 16px;
+  }
+
+  .brand-name {
+    font-size: 11px;
+    letter-spacing: 2px;
+  }
+
+  .brand-subtitle {
+    font-size: 9px;
+    letter-spacing: 2px;
+  }
+
+  .hero {
+    padding: 70px 18px;
+    gap: 32px;
+  }
+
+  .hero h1 {
+    font-size: 48px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .section {
+    padding: 70px 18px;
+  }
+
+  .section-title,
+  .experience-card h2 {
+    font-size: 38px;
+  }
+
+  .menu-tabs {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .menu-tab {
+    width: 100%;
+  }
+
+  .menu-item-top {
+    flex-direction: column;
+  }
+
+  .gallery-section {
+    padding: 70px 18px;
+  }
+
+  .gallery-card h3 {
+    font-size: 28px;
+  }
+}
