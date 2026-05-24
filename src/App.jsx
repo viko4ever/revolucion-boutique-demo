@@ -107,28 +107,28 @@ function App() {
       ]
     },
     en: {
-      villaquil: [
-        ['Villaquil Green Chilaquiles', '$145', 'Tortilla chips with green salsa, cream, fresh cheese and onion. Protein: chicken, egg or beef.'],
-        ['House Red Chilaquiles', '$145', 'Artisanal red salsa, cream, cheese, onion and protein of choice.'],
-        ['Revolutionary Chilaquiles', '$165', 'Green or red chilaquiles with double protein and house touch.'],
-        ['Traditional Café de Olla', '$55', 'Cinnamon, piloncillo and Mexican kitchen aroma.'],
-        ['Fresh Juice', '$65', 'Orange or grapefruit.'],
-        ['Lemonade', '$55 / $65', 'Still or sparkling.'],
-        ['Sparkling Water', '$45', 'Individual service.'],
-        ['Soft Drink', '$45', 'Assorted flavors.']
-      ],
-      bonanza: [
-        ['Bonanza Americano', '$55', 'Clean and aromatic black coffee.'],
-        ['Hacienda Latte', '$72', 'Espresso with steamed milk.'],
-        ['Revolution Cappuccino', '$72', 'Espresso, milk foam and cocoa touch.'],
-        ["General's Mocha", '$78', 'Dark chocolate, espresso and creamy milk.'],
-        ['Bonanza Cold Brew', '$75', 'Smooth and refreshing cold extraction.'],
-        ['Caramel Bonanza Frappe', '$89', 'Coffee, caramel, milk and whipped cream.'],
-        ['House Mollete', '$92', 'Artisanal bread, beans, melted cheese and pico de gallo.'],
-        ['Villaquil Croissant', '$88', 'Croissant with turkey ham, cheese and house dressing.'],
-        ['Corn Pound Cake', '$65', 'Traditional dessert with boutique presentation.'],
-        ['Bonanza Cake', '$85', 'Chocolate or seasonal flavor.']
-      ]
+     villaquil: [
+  ['Chilaquiles Verdes Villaquil', '$145', 'Tortilla chips with green salsa, cream, fresh cheese and onion. Protein: chicken, egg or beef.'],
+  ['Chilaquiles Rojos de la Casa', '$145', 'Artisanal red salsa, cream, cheese, onion and protein of choice.'],
+  ['Chilaquiles Revolucionarios', '$165', 'Green or red chilaquiles with double protein and house touch.'],
+  ['Café de Olla Tradicional', '$55', 'Cinnamon, piloncillo and Mexican kitchen aroma.'],
+  ['Jugo Natural', '$65', 'Orange or grapefruit.'],
+  ['Limonada', '$55 / $65', 'Still or sparkling.'],
+  ['Agua Mineral', '$45', 'Individual service.'],
+  ['Refresco', '$45', 'Assorted flavors.']
+],
+    bonanza: [
+  ['Americano Bonanza', '$55', 'Clean and aromatic black coffee.'],
+  ['Latte de la Hacienda', '$72', 'Espresso with steamed milk.'],
+  ['Capuchino Revolución', '$72', 'Espresso, milk foam and cocoa touch.'],
+  ['Moka del General', '$78', 'Dark chocolate, espresso and creamy milk.'],
+  ['Cold Brew Bonanza', '$75', 'Smooth and refreshing cold extraction.'],
+  ['Caramel Bonanza Frappe', '$89', 'Coffee, caramel, milk and whipped cream.'],
+  ['Mollete de la Casa', '$92', 'Artisanal bread, beans, melted cheese and pico de gallo.'],
+  ['Croissant Villaquil', '$88', 'Croissant with turkey ham, cheese and house dressing.'],
+  ['Panqué de Elote', '$65', 'Traditional dessert with boutique presentation.'],
+  ['Pastel Bonanza', '$85', 'Chocolate or seasonal flavor.']
+]
     }
   }
 
