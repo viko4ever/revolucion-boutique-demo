@@ -13,6 +13,7 @@ import {
 import logoRevolucion from './assets/logo-revolucion.jpg'
 import logoVillaquil from './assets/logo-villaquil.jpg'
 import logoBonanza from './assets/logo-bonanza.jpg'
+import ubicacionImg from './assets/ubicacion.jpg'
 
 function App() {
   const [lang, setLang] = useState('es')
@@ -488,14 +489,22 @@ function App() {
               <Info icon={<MapPin />} text="Artículo 123 #88, Col. Centro, CDMX" />
             </div>
           </div>
+          <div>
+  <div className="map-demo map-demo-photo">
+    <img
+      src={ubicacionImg}
+      alt="Ubicación Re-Volución Boutique"
+    />
+  </div>
 
-          <div className="map-demo">
-            <div>
-              <MapPin size={52} color="#b99a57" />
-              <h3>Mapa demo</h3>
-              <p>Google Maps se conecta en la versión productiva.</p>
-            </div>
-          </div>
+  <p className="map-demo-note">
+    {lang === 'es'
+      ? 'Google Maps se conecta en la versión productiva.'
+      : 'Google Maps will be connected in the production version.'}
+  </p>
+</div>
+
+         
         </div>
       </section>
 
