@@ -735,7 +735,7 @@ textarea.input-lux {
 .gallery-large::before {
   background:
     linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.82)),
-    url('./assets/talavera.jpg');
+    url('./assets/Talavera.jpg');
   background-size: cover;
   background-position: center;
 }
